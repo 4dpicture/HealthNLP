@@ -7,6 +7,8 @@ Accepted Tutorial to be presented at [LREC 2026](https://lrec2026.info/) - mater
 # LREC2026 Tutorial page: https://lrec2026.info/second-call-for-tutorial/ 
 "The tutorials will be held at LREC 2026 in Palma de Mallorca (Spain), on 11, 12, or 16 May 2026."
 
+# Download Links
+[tutorial proposal with lecture list](https://github.com/4dpicture/HealthNLP/blob/main/2512.08617v1.pdf)
 
 # Reference / Preprint of the Tutorial (proposals including Abstract, Intro, Organisers/Presenters, Target Audience, Lecture List Outline, Reading List, Topic Aware Literature)
 
