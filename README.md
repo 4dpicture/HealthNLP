@@ -10,6 +10,8 @@ Accepted Tutorial to be presented at [LREC 2026](https://lrec2026.info/) - mater
 # Download Links
 [tutorial proposal with lecture list](https://github.com/4dpicture/HealthNLP/blob/main/2512.08617v1.pdf)
 
+[full slides of tutorial used for 4h](https://github.com/4dpicture/HealthNLP/blob/main/full_slides_HealthNLP-tutorial-2026LREC.pdf)
+
 # Reference / Preprint of the Tutorial (proposals including Abstract, Intro, Organisers/Presenters, Target Audience, Lecture List Outline, Reading List, Topic Aware Literature)
 
 @misc{han2025healthcarenlpnext,
