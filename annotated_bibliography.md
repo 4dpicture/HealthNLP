@@ -1,4 +1,4 @@
-# Annotated Bibliography: Patient and Data-oriented Healthcare NLP
+# Annotated Bibliography: Patient- and Data-Oriented Healthcare NLP
 
 A companion resource to the tutorial *Healthcare NLP: where are we and what is next?* presented at LREC 2026.  
 Materials: <https://github.com/4dpicture/HealthNLP>
@@ -69,7 +69,7 @@ Non-English examples:
 
 [Arigbabu et al. (2024)](https://doi.org/10.9734/ajrcos/2024/v17i3418) study data governance in AI-enabled healthcare via a survey of 843 users. They find a positive link between awareness of AI projects and trust in healthcare providers, and stress the importance of transparent communication about data use.
 
-Promising technical approaches for safer data access include **federated learning** ([Xu et al., 2021](https://doi.org/10.1007/s41666-020-00082-4); [Nguyen et al., 2022](https://doi.org/10.1145/3501296); [Antunes et al., 2022](https://doi.org/10.1145/3501296)) and **access-level control** ([Abouelmehdi et al., 2018](https://doi.org/10.1186/s40537-017-0110-7); [Xiang & Cai, 2021](https://doi.org/10.1155/2021/9980551)).
+Promising technical approaches for safer data access include **federated learning** ([Xu et al., 2021](https://doi.org/10.1007/s41666-020-00082-4); [Nguyen et al., 2022](https://doi.org/10.1145/3501296); [Antunes et al., 2022](https://doi.org/10.1145/3501813)) and **access-level control** ([Abouelmehdi et al., 2018](https://doi.org/10.1186/s40537-017-0110-7); [Xiang & Cai, 2021](https://doi.org/10.1155/2021/9980551)).
 
 
 
@@ -103,7 +103,7 @@ Promising technical approaches for safer data access include **federated learnin
 
 [Belkadi et al. (2023)](https://doi.org/10.1109/BigData59044.2023.10386154) compare pre-trained encoder-based language models (BERT, BioBERT, ClinicalBERT) fine-tuned for drug and adverse drug effect entity recognition. They find that domain-specific models achieve similar F1 (0.84) to general BERT despite higher precision.
 
-[Romero et al. (2025)](https://aclanthology.org/2025.cl4health-1/) investigate ensemble learning over eight diverse encoder-based models (including RoBERTa-L, BioMedRoBERTa, PubMedBERT) for medication extraction, reaching a macro-F1 of 0.88 on the n2c2-2018 EHR dataset.
+[Romero et al. (2025)](https://aclanthology.org/2025.cl4health-1.26/) investigate ensemble learning over eight diverse encoder-based models (including RoBERTa-L, BioMedRoBERTa, and PubMedBERT) for medication extraction. Their non-BIO word-level ensemble reaches a macro-F1 of 0.8821, while BIO-aware max-logit voting reaches 0.8232.
 
 [Magge et al. (2021)](https://doi.org/10.1093/jamia/ocab114) present **DeepADEMiner**, a deep learning pharmacovigilance pipeline for extracting and normalising adverse drug event mentions from Twitter, combining NER with entity normalisation to a medical ontology.
 
@@ -119,7 +119,7 @@ Promising technical approaches for safer data access include **federated learnin
 
 [Hartendorp et al. (2024)](https://aclanthology.org/2024.cl4health-1.31/) adapt SapBERT for Dutch by fine-tuning on an automatically generated Wikipedia corpus, then apply it to a Dutch cancer patient forum (kanker.nl), reporting that NER errors are currently a larger bottleneck than the linker itself.
 
-[Mazzucato et al. (2026)](https://doi.org/10.1101/2026.01.24.26320622) explore both NER and entity linking with decoder-only LLMs (GPT-4o) in a cross-lingual setting (Dutch and Italian EHRs, CLEF eHealth data), endorsing the potential of generative LLMs for multilingual healthcare data harmonisation.
+[Mazzucato et al. (2026)](https://doi.org/10.64898/2026.01.22.26344605) explore both NER and entity linking with decoder-only LLMs (GPT-4o) in a cross-lingual setting (Dutch and Italian EHRs, CLEF eHealth data), endorsing the potential of generative LLMs for multilingual healthcare data harmonisation.
 
 
 
@@ -131,7 +131,7 @@ Promising technical approaches for safer data access include **federated learnin
 
 ### Sentiment Analysis
 
-[Mæhlum et al. (2024)](https://aclanthology.org/2024.cl4health-1.44/) create the **Norwegian Patient Comment corpus (NorPaC)** (2,250 patient comments annotated with sentence- and document-level sentiment). They find that large Norwegian LLMs achieve F1 of 89 for binary sentiment in zero-shot settings, though inter-annotator agreement between LLMs and humans is lower than between human annotators.
+[Mæhlum et al. (2024)](https://aclanthology.org/2024.cl4health-1.2/) introduce the **Norwegian Patient Comment corpus (NorPaC)** for sentiment analysis of patient feedback and evaluate Norwegian language models on the task, including zero-shot settings.
 
 [Rønningstadal et al. (2025)](https://aclanthology.org/2025.nodalida-1.58/) explore within- and cross-domain training for Norwegian patient feedback sentiment. They find that fine-tuned BERT and T5 models outperform zero- and few-shot LLMs on four-way sentiment, and that out-of-domain data (NoReC) can improve in-domain results when in-domain data is limited.
 
@@ -159,7 +159,7 @@ Promising technical approaches for safer data access include **federated learnin
 
 De-identification is a key prerequisite for releasing clinical NLP data. [Shaji et al. (2024)](https://arxiv.org/abs/2405.12630) de-identify clinical texts using biomedical BERT variants with comprehensive risk assessment, contributing to the MORMOR-KARL shared task at LEGAL 2026.
 
-Patients' attitudes towards health data sharing are explored by [Subramanian et al. (2024)](https://doi.org/10.2196/51439), who find that HIPAA does not fully prevent data breaches and explore industry-standard alternatives. [O'Herrin et al. (2004)](https://doi.org/10.1097/01.sla.0000109149.66355.44) report that HIPAA increases workload and dropout rates for medical records research.
+Patients' attitudes towards health data sharing are explored by [Subramanian et al. (2024)](https://doi.org/10.2196/51439), who find that HIPAA does not fully prevent data breaches and explore industry-standard alternatives. [O'Herrin et al. (2004)](https://doi.org/10.1097/01.sla.0000128307.98274.dc) report that HIPAA increases workload and dropout rates for medical records research.
 
 
 
@@ -173,7 +173,7 @@ The **iPOF project** (investigative research into the experiences of online foru
 
 ### Analysis of patient narratives
 
-[Han et al. (2025)](https://aclanthology.org/2026.cl4health-1.8.pdf) extract metaphors from Dutch cancer patients' interviews and forum data using LLMs combined with human-in-the-loop validation. They connect to the broader **Metaphor Menu** project (<https://wp.lancs.ac.uk/melc/>) that develops multilingual conversation tools for cancer patients.
+[Han et al. (2026)](https://aclanthology.org/2026.cl4health-1.8/) extract metaphors from Dutch cancer patients' interviews and forum data using LLMs combined with human-in-the-loop validation. They connect to the broader **Metaphor Menu** project (<https://wp.lancs.ac.uk/melc/>) that develops multilingual conversation tools for cancer patients.
 
 [Lal et al. (2024)](https://aclanthology.org/2024.cl4health-1.9/) analyse cancer narratives from Reddit to understand the emotional content around stages and treatments, providing insights into how patients articulate their health experiences in informal language.
 
