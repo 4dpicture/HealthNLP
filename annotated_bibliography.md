@@ -83,7 +83,7 @@ Promising technical approaches for safer data access include **federated learnin
 
 [Kattenberg (2025)](https://theses.liacs.nl/3496) generates a synthetic Dutch medical dataset of episode descriptions using a fine-tuned GPT-2 model conditioned on ICPC class labels. He demonstrates reasonable classification accuracy but reduced diversity compared to real data.
 
-[Belkadi et al. (2025)](https://doi.org/10.1109/ICHI64508.2025) introduce **MLM4SynMed**, using masked language modelling to generate synthetic free-text medical records, extending synthetic data generation to a more challenging and heterogeneous text type.
+[Belkadi et al. (2025)](https://doi.org/10.1109/ICHI64645.2025.00067) introduce **MLM4SynMed**, using masked language modelling to generate synthetic free-text medical records, extending synthetic data generation to a more challenging and heterogeneous text type.
 
 
 
